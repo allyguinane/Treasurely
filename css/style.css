@@ -307,3 +307,76 @@ html, body{
  .testimonials even ul li {
    margin-top:10px;
  }
+/* No Day Like Today */
+ .statement {
+   padding:0em 0;
+   text-align:center;
+ }
+  .statement h2 {
+   color:#FFFFFF;
+ }
+ .statement ul {
+   list-style-type: none;
+}
+ .statement ul { 
+   background: #322740
+   background:linear-gradient (206deg, #5E1E43 0%, #322740 94%);
+   background-size: cover;
+   text-align: center;
+   padding: 1em 2em 2em 2em;
+ }
+
+ .box .btn  ul{
+   position:absolute;
+
+ }
+
+
+ /* FOOTER */
+ footer {
+   background-color: #322740;
+   color: #FFFFFF;
+   height: 150px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+ }
+ footer p, footer nav ul {
+   font-size:14px;
+   font-weight:100;
+   text-align: center;
+   margin: 10px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ footer .right-footer-block {
+   background-color: transparent;
+ }
+ footer .logo{
+   padding: 2.35em 0;
+   margin: 0 auto;
+   display: block;
+ }
+
+ @media (min-width: 992px){
+   footer{
+     background-color: #322740;
+     height: 100px;
+   }
+   footer p, footer nav ul{
+     padding: 2em 0;
+     text-align: left;
+   }
+   footer .right-footer-block {
+     background-color: #322740;
+   }
+   footer .logo{
+     padding: 2em 0 2em 1.5em;
+   }
+ }
