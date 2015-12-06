@@ -372,11 +372,14 @@ html, body{
    footer p, footer nav ul{
      padding: 2em 0;
      text-align: left;
+     margin: auto;
    }
    footer .right-footer-block {
      background-color: #322740;
+     padding-bottom: 20px
+     margin: auto;
    }
    footer .logo{
-     padding: 2em 0 2em 1.5em;
+     padding: 2em 0 2em 5em;
    }
  }
