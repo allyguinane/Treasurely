@@ -1,0 +1,463 @@
+Last login: Fri Nov 27 17:10:14 on ttys001
+Allys-iMac:~ allisondavis$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+Allys-iMac:~ allisondavis$ https://github.com/allyguinane/Treasurely.git
+-bash: https://github.com/allyguinane/Treasurely.git: No such file or directory
+Allys-iMac:~ allisondavis$ git init
+Initialized empty Git repository in /Users/allisondavis/.git/
+Allys-iMac:~ allisondavis$ README.md
+-bash: README.md: command not found
+Allys-iMac:~ allisondavis$ index.html
+-bash: index.html: command not found
+Allys-iMac:~ allisondavis$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.CFUserTextEncoding
+	.DownloadManager/
+	.Trash/
+	.adobe/
+	.anyconnect
+	.bash_history
+	.bash_profile
+	.config/
+	.cups/
+	.dropbox/
+	.gitconfig
+	.oracle_jre_usage/
+	.ssh/
+	10162-JoshGroban_Stages/
+	Applications/
+	Code/
+	Desktop/
+	Documents/
+	Downloads/
+	Dropbox/
+	Google Drive/
+	InVision/
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Public/
+	Sites/
+	Ticket Issue0928.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+Allys-iMac:~ allisondavis$ cd Treasurely
+-bash: cd: Treasurely: No such file or directory
+Allys-iMac:~ allisondavis$ cd desktop
+Allys-iMac:desktop allisondavis$ ls
+Bloc
+Creative ideas
+LottieDottie
+PAT-FREELANCE
+Q4 Oh So Salty
+Screen Shot 2015-05-13 at 12.31.30 PM.png
+Screen Shot 2015-11-22 at 9.37.23 PM.png
+Screen Shot 2015-11-27 at 5.42.52 PM.png
+Screen Shot 2015-11-28 at 4.37.26 PM.png
+Skyfonts not working.png
+Sue's Banner
+TO PRINT
+Test
+To file
+Treasurely
+another computer using IP address.png
+blocbox ideas
+girls trip 2016
+git_operations.png
+iTunes prob.png
+margins.png
+shopping
+Allys-iMac:desktop allisondavis$ cd Treasurely
+Allys-iMac:Treasurely allisondavis$ ls
+css		images		js
+fonts		index.html	readme.md
+Allys-iMac:Treasurely allisondavis$ subl .
+Allys-iMac:Treasurely allisondavis$ git init
+Reinitialized existing Git repository in /Users/allisondavis/Desktop/Treasurely/.git/
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	images/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Allys-iMac:Treasurely allisondavis$ git add .
+Allys-iMac:Treasurely allisondavis$ git commit -m "Checkpoint-28-completed"
+[gh-pages 67d8eee] Checkpoint-28-completed
+ 3 files changed, 161 insertions(+)
+ create mode 100644 images/dashboard.png
+ create mode 100644 images/site-logo.png
+Allys-iMac:Treasurely allisondavis$ git push origin gh-pages
+Counting objects: 9, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 200.07 KiB | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/allyguinane/Treasurely.git
+   2854ca1..67d8eee  gh-pages -> gh-pages
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Allys-iMac:Treasurely allisondavis$ git add .
+Allys-iMac:Treasurely allisondavis$ git commit -m "Assignment-28-completed"
+[gh-pages 58bd2ee] Assignment-28-completed
+ 1 file changed, 14 insertions(+), 3 deletions(-)
+Allys-iMac:Treasurely allisondavis$ git push origin gh-pages
+Counting objects: 7, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 657 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/allyguinane/Treasurely.git
+   67d8eee..58bd2ee  gh-pages -> gh-pages
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+nothing to commit, working directory clean
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	css/
+	fonts/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Allys-iMac:Treasurely allisondavis$ git add .
+Allys-iMac:Treasurely allisondavis$ git commit -m "Checkpoint-29-completed"
+[gh-pages e00dad5] Checkpoint-29-completed
+ 10 files changed, 3219 insertions(+)
+ create mode 100644 css/font-awesome.css
+ create mode 100644 css/normalize.css
+ create mode 100644 css/style.css
+ create mode 100644 fonts/FontAwesome.otf
+ create mode 100644 fonts/fontawesome-webfont.eot
+ create mode 100644 fonts/fontawesome-webfont.svg
+ create mode 100644 fonts/fontawesome-webfont.ttf
+ create mode 100644 fonts/fontawesome-webfont.woff
+ create mode 100644 fonts/fontawesome-webfont.woff2
+Allys-iMac:Treasurely allisondavis$ git push origin gh-pages
+Counting objects: 18, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (14/14), 503.08 KiB | 0 bytes/s, done.
+Total 14 (delta 1), reused 0 (delta 0)
+To https://github.com/allyguinane/Treasurely.git
+   58bd2ee..e00dad5  gh-pages -> gh-pages
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	css/animate.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Allys-iMac:Treasurely allisondavis$ git add .
+Allys-iMac:Treasurely allisondavis$ git commit -m "Assignment-29-completed"
+[gh-pages 3ecd766] Assignment-29-completed
+ 2 files changed, 3277 insertions(+), 1 deletion(-)
+ create mode 100644 css/animate.css
+Allys-iMac:Treasurely allisondavis$ git push origin gh-pages
+Counting objects: 10, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 4.77 KiB | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+To https://github.com/allyguinane/Treasurely.git
+   e00dad5..3ecd766  gh-pages -> gh-pages
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+nothing to commit, working directory clean
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   css/style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Allys-iMac:Treasurely allisondavis$ git add .
+Allys-iMac:Treasurely allisondavis$ git commit -m "Checkpoint-30-completed"
+[gh-pages 52f1d84] Checkpoint-30-completed
+ 1 file changed, 98 insertions(+), 1 deletion(-)
+Allys-iMac:Treasurely allisondavis$ git push origin gh-pages
+Counting objects: 8, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.14 KiB | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+To https://github.com/allyguinane/Treasurely.git
+   3ecd766..52f1d84  gh-pages -> gh-pages
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   css/style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Allys-iMac:Treasurely allisondavis$ git add .
+Allys-iMac:Treasurely allisondavis$ git commit -m "Assignment-30-completed"
+[gh-pages d388f3f] Assignment-30-completed
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+Allys-iMac:Treasurely allisondavis$ git push origin gh-pages
+^[[B^[[BCounting objects: 8, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 447 bytes | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+To https://github.com/allyguinane/Treasurely.git
+   52f1d84..d388f3f  gh-pages -> gh-pages
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   css/style.css
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   css/style.css
+	modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	images/background.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Allys-iMac:Treasurely allisondavis$ git add .
+Allys-iMac:Treasurely allisondavis$ git commit -m "Checkpoint-31-completed"
+[gh-pages 07b8502] Checkpoint-31-completed
+ 3 files changed, 166 insertions(+), 5 deletions(-)
+ create mode 100644 images/background.png
+Allys-iMac:Treasurely allisondavis$ git push origin gh-pages
+Counting objects: 14, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 529.93 KiB | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+To https://github.com/allyguinane/Treasurely.git
+   d388f3f..07b8502  gh-pages -> gh-pages
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+nothing to commit, working directory clean
+Allys-iMac:Treasurely allisondavis$ git add .
+Allys-iMac:Treasurely allisondavis$ git commit -m "Assignment-31-completed"
+[gh-pages 318fa03] Assignment-31-completed
+ 2 files changed, 13 insertions(+), 7 deletions(-)
+Allys-iMac:Treasurely allisondavis$ git push origin gh-pages
+Counting objects: 11, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 760 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+To https://github.com/allyguinane/Treasurely.git
+   07b8502..318fa03  gh-pages -> gh-pages
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   css/style.css
+	modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	images/UI Face Dude 2.jpg
+	images/UI Face Dude.jpg
+	images/UI Face Lady.jpg
+	images/UI Face Lady2.jpg
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   css/style.css
+	modified:   images/dashboard.png
+	modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	images/UI Face Dude 2.jpg
+	images/UI Face Dude.jpg
+	images/UI Face Lady.jpg
+	images/UI Face Lady2.jpg
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Allys-iMac:Treasurely allisondavis$ git add .
+Allys-iMac:Treasurely allisondavis$ git commit -m "Checkpoint-32-completed"
+[gh-pages 5163305] Checkpoint-32-completed
+ 7 files changed, 92 insertions(+), 16 deletions(-)
+ create mode 100644 images/UI Face Dude 2.jpg
+ create mode 100644 images/UI Face Dude.jpg
+ create mode 100644 images/UI Face Lady.jpg
+ create mode 100644 images/UI Face Lady2.jpg
+ rewrite images/dashboard.png (97%)
+Allys-iMac:Treasurely allisondavis$ git push origin gh-pages
+Counting objects: 19, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 209.83 KiB | 0 bytes/s, done.
+Total 11 (delta 3), reused 0 (delta 0)
+To https://github.com/allyguinane/Treasurely.git
+   318fa03..5163305  gh-pages -> gh-pages
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   css/style.css
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Allys-iMac:Treasurely allisondavis$ git add .
+Allys-iMac:Treasurely allisondavis$ git commit -m "Assignment -32-completed"
+[gh-pages 77cf627] Assignment -32-completed
+ 2 files changed, 8 insertions(+), 5 deletions(-)
+Allys-iMac:Treasurely allisondavis$ git push origin gh-pages
+Counting objects: 11, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 589 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+To https://github.com/allyguinane/Treasurely.git
+   5163305..77cf627  gh-pages -> gh-pages
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+nothing to commit, working directory clean
+Allys-iMac:Treasurely allisondavis$ git status
+gOn branch gh-pages
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Dashboard.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+Allys-iMac:Treasurely allisondavis$ git add .
+Allys-iMac:Treasurely allisondavis$ git commit -m "Checkpoint-33-completed"
+[gh-pages 1d6da42] Checkpoint-33-completed
+ 1 file changed, 113 insertions(+)
+ create mode 100644 Dashboard.html
+Allys-iMac:Treasurely allisondavis$ git push origin gh-pages
+Counting objects: 5, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.79 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/allyguinane/Treasurely.git
+   77cf627..1d6da42  gh-pages -> gh-pages
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Dashboard.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Dashboard Images
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Allys-iMac:Treasurely allisondavis$ git add .
+Allys-iMac:Treasurely allisondavis$ git commit -m "Assignment-33-completed"
+[gh-pages 7f3b684] Assignment-33-completed
+ 2 files changed, 127 insertions(+), 1 deletion(-)
+ create mode 100644 Dashboard Images
+Allys-iMac:Treasurely allisondavis$ git push origin gh-pages
+Counting objects: 7, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.41 KiB | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+To https://github.com/allyguinane/Treasurely.git
+   1d6da42..7f3b684  gh-pages -> gh-pages
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+nothing to commit, working directory clean
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   css/style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Allys-iMac:Treasurely allisondavis$ git status
+On branch gh-pages
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   css/style.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	DashboardImages.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Allys-iMac:Treasurely allisondavis$ git add .
+Allys-iMac:Treasurely allisondavis$ git commit -m "Checkpoint-34-completed"
+[gh-pages 414e349] Checkpoint-34-completed
+ 2 files changed, 331 insertions(+), 2 deletions(-)
+ create mode 100644 DashboardImages.html
+Allys-iMac:Treasurely allisondavis$ git push origin gh-pages
+Counting objects: 8, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.42 KiB | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+To https://github.com/allyguinane/Treasurely.git
+   7f3b684..414e349  gh-pages -> gh-pages
+Allys-iMac:Treasurely allisondavis$ 
