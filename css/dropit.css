@@ -18,15 +18,29 @@
 .dropit .dropit-trigger { position: relative; }
 .dropit .dropit-submenu {
     position: absolute;
-    top: 100%;
+    bottom: 100%;
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
     min-width: 100px;
     list-style: none;
-	padding: 20;
+	padding: 10px;
 	margin: 20px 0 0;
 }
+left-nav.dropit .dropit-submenu {
+    position: absolute;
+    bottom: 100%;
+    right: 0; /* dropdown left or right */
+    z-index: 1000;
+    display: none;
+    min-width: 100px;
+    list-style: none;
+    padding: 20;
+    margin: 10px 0 0;
+    float: top;
+}
+
+
 .dropit .dropit-open .dropit-submenu { 
     display: block; 
     background: #FFFFFF;
@@ -58,3 +72,5 @@
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight:100;
  }
+
+

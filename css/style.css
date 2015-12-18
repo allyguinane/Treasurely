@@ -488,8 +488,8 @@ html, body{
    text-align: center;
    margin-right:8px;
  }
-  .left-nav .items ul li a .active {
-   background-color: #FFFFFF
+  .left-nav .items ul li a.active {
+   background-color: #322740
 }
 
 
@@ -538,7 +538,7 @@ html, body{
    margin:0 1% 20px;
  }
  .content .header h1 {
-   font-family: "Roboto", Helvetica, Arial, sans-serif;
+   font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
    font-weight: 100;
    margin:0 0 30px;
    font-size: 36px;
