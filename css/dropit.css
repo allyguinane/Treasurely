@@ -108,7 +108,6 @@
     border-radius: 4px;
 }
 
-
 .menu.dropit .dropit-open .dropit-submenu:before { /*adds the white triangle to the box*/
   content: " ";
   position: absolute;
@@ -131,7 +130,7 @@
     width: 0;
     z-index: 1;
     top: 100%;
-    right: 10px;
+    right: 8px;
     transform: rotate(180deg);
 }
 .menu.dropit .dropit-open .dropit-submenu li {
